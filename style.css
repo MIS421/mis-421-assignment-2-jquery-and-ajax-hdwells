@@ -23,13 +23,13 @@
 }
 
 
-#searchbutton:hover {
+#searchbutton {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15pt;
     text-align: center;
-    max-width: auto;
-    margin: auto;
+ 
+
 }
 
  #searchResults{
@@ -43,4 +43,15 @@ body {
     background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+button:hover {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
 }
