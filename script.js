@@ -97,6 +97,27 @@ function feelingLucky() {
 }
 
 
-function bkgImage() {
+function changeImageF() {
     document.body.style.backgroundImage = "url('https://freight.cargo.site/t/original/i/561b7e4736035c98687372ba6c41ef46377c916705ccecd0498a526089aa8634/_DSF0752-Exposure.jpg')";
+    return true;
+}
+
+let styles = false;
+function bkgImage() {
+
+    var bool = '';
+    if (!styles) {
+        bool = changeImageF();
+    }
+    if (styles == true) {
+        bool = changeImageT();
+    }
+    console.log(styles);
+    styles = bool;
+
+}
+
+function changeImageT() {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=903&q=80')";
+    return false;
 }
