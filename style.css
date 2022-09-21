@@ -35,10 +35,10 @@
 }
 
  #searchResults{
-     visibility: visible;
+     visibility: hidden;
  }
  #time {
-     visibility:visible;
+     visibility:hidden;
  }
 
 body {
