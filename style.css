@@ -1,13 +1,15 @@
 #header {
     text-align: center;
-    font-size:30pt;
+    font-size: 30pt;
     font-family: Monotype Corsiva;
-    max-width:auto;
-    margin:auto;
-    position:relative;
+    max-width: auto;
+    margin: auto;
+    position: relative;
+    border-block-color: white;
+    text-shadow: 3px 0 0 pink, 0 -1px 0 #000, 0 3px 0 #000, -1px 0 0 pink;
 }
 
-#Query {
+#query {
     height: 20pt;
     width: 200pt;
     border-radius: 25px;
@@ -33,10 +35,10 @@
 }
 
  #searchResults{
-     visibility:hidden;
+     visibility: visible;
  }
  #time {
-     visibility:hidden;
+     visibility:visible;
  }
 
 body {
@@ -45,13 +47,3 @@ body {
     background-size: 100%;
 }
 
-button:hover {
-    display: inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10pt;
-    text-align: center;
-    width: 100px;
-    height: 25px;
-    background-color: black;
-    color: white;
-}

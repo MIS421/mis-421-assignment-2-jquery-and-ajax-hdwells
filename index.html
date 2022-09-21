@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Search Away!</title>
+   <title>Carousel</title>
     <link rel="stylesheet" href="./style.css">
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
 <body>
     
     <div id="header">
-        <h1>Search Away!</h1>
+        <h1 onclick = "bkgImage()">Carousel</h1>
 
     </div>
     <div>
@@ -25,10 +25,12 @@
     </div>
 
     <div id="searchbar">
-        <input type="text" id="Query" placeholder="type here . . .">
+        <input type="text" id="query" placeholder="type here . . .">
         <br />
-        <button onClick= "search()" value="search" type="button">SEARCH</button>
-        <button onClick= "time()" value="time" type="button">TIME</button>
+        <button onclick="search()" value="search" type="button">SEARCH</button>
+        <button onclick="Time()" value="time" type="button">TIME</button>
+        <br/>
+        <button onclick="feelingLucky()" value="lucky" type="button">ARE YOU FEELING LUCKY?</button>
     </div>
 
     <div id="searchResults"></div>
